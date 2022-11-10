@@ -39,7 +39,6 @@ public class List {
             System.out.println(nota);
         }
 
-
         System.out.println("Exiba a terceira nota adicionada: " + notas.get(2));
         System.out.println(notas);
 
