@@ -6,13 +6,11 @@ package Collections;
 // Gato 2 = nome : Jenerson - idade : 23 - cor : vermeio
 // Gato 3 = nome : Fuba - idade : 4 - cor : branco
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class OrdenandoListas {
+public class OrdenandoListasList {
     public static void main(String[] args) {
         ArrayList<Gato> gatos = new ArrayList<>(){{
             add(new Gato("Core", 12, "Preto"));
